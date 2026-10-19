@@ -44,3 +44,10 @@ Coverage ends in January 2024, and 2024 has only 411 rows, so exclude it from an
 There is no unit-level identifier, so repeat sales of the same flat cannot be tracked.
 Yearly volume dips in 2013 to 2014 (about 16,000 transactions vs. 23,000 in 2012). Treat this as a real market change, not missing data. Cooling measures are a likely cause, but the data cannot confirm it.
 Early-year transaction counts vary by town because new towns such as Punggol (first sales in 2005) were still being built. Account for this in town-level trends.
+
+Usage Example (Python & Pandas)
+Load: read and combine all four CSVs in the data folder.
+Prepare: convert month to a date, then add year, price_per_sqm and remaining_lease_years. The last one is derived for every row, because the files before 2015 have no remaining lease column.
+Quick checks: drop the duplicate rows, then exclude terrace houses and the partial 2024 data. That leaves 626,673 rows, and the summary statistics are printed.
+First analyses: median price by year, price by flat type, and the top 10 towns by price per sqm in 2023.
+Chart: median price over time for each flat type.
