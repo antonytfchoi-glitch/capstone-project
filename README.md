@@ -20,3 +20,27 @@ There are 1,066 exact duplicate rows (0.17%), spread across the 2000 to 2012 fil
 Another 68 groups are identical except for remaining_lease, which differs by one month. Those look like separate sales.
 There is no transaction or unit ID, so identical rows may be genuine separate sales. Two identical flats in one block can sell for the same price in the same month.
 Treatment: flag the duplicates (is_dup) and run the main analysis both with and without them. Do not drop them silently.
+
+Outliers
+By the 1.5×IQR rule within each flat type, 12,587 price outliers (about 2%) are flagged, mostly 4 ROOM (5,774) and 5 ROOM (4,358).
+The high end is genuine: the largest price-per-sqm values are 4 ROOM flats in Central Area at around $15,000/sqm in 2022 to 2023.
+The 199 prices under $60,000 are almost all 1 ROOM flats (190) from the early 2000s. They are real, not errors.
+Treatment: do not delete these. Use log(price), analyse by flat type and town, and use robust statistics such as the median.
+
+Formatting and type issues
+month is a text string, so convert it to a date and derive year and month.
+block is text. 18% of values contain letters (for example “104A”), so do not convert it to a number.
+street_name uses standard abbreviations (AVE, ST, RD, NTH, CTRL, BT). They are consistent within the data, but expect to adjust them if you geocode.
+Stored prices are all positive; 137 prices are not whole dollars, which is fine.
+
+Data dictionary vs. actual data
+The dictionary lists street_lat, street_lon, town_lat and town_lon, but none of these columns exist in the four files. Any map or distance analysis needs geocoding or an external lookup.
+The dictionary gives the unit of remaining_lease as years, but the column is actually an integer or text depending on the file (issue 2).
+The dictionary describes one table, but the data comes as four files with different columns and date definitions.
+
+Limitations to state in your report
+Prices are nominal, not inflation-adjusted. The yearly average rises from about $258K in 2000 to $572K in 2023, so adjust before comparing across years.
+Coverage ends in January 2024, and 2024 has only 411 rows, so exclude it from annual comparisons. The zip is dated 2026, so the data is not current.
+There is no unit-level identifier, so repeat sales of the same flat cannot be tracked.
+Yearly volume dips in 2013 to 2014 (about 16,000 transactions vs. 23,000 in 2012). Treat this as a real market change, not missing data. Cooling measures are a likely cause, but the data cannot confirm it.
+Early-year transaction counts vary by town because new towns such as Punggol (first sales in 2005) were still being built. Account for this in town-level trends.
