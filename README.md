@@ -10,3 +10,6 @@ Research Objectives
 3.Compare resale prices and price per square metre across towns to identify high-value and affordable areas.
 4.Analyse long-term price trends and seasonality in transaction volume from 2000 to the latest data.
 5.Build a predictive model of resale price and identify which features contribute most to it.
+
+<img width="271" height="500" alt="image" src="https://github.com/user-attachments/assets/8c5b170d-d941-4caa-ae9d-621f8020a15e" />
+
