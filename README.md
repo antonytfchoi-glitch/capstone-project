@@ -40,7 +40,7 @@ The dictionary lists street_lat, street_lon, town_lat and town_lon, but none of 
 The dictionary gives the unit of remaining_lease as years, but the column is actually an integer or text depending on the file (issue 2).
 The dictionary describes one table, but the data comes as four files with different columns and date definitions.
 
-Limitations to state in your report
+Limitations in report
 Prices are nominal, not inflation-adjusted. The yearly average rises from about $258K in 2000 to $572K in 2023, so adjust before comparing across years.
 Coverage ends in January 2024, and 2024 has only 411 rows, so exclude it from annual comparisons. The zip is dated 2026, so the data is not current.
 There is no unit-level identifier, so repeat sales of the same flat cannot be tracked.
