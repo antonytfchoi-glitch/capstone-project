@@ -53,3 +53,19 @@ Prepare: convert month to a date, then add year, price_per_sqm and remaining_lea
 Quick checks: drop the duplicate rows, then exclude terrace houses and the partial 2024 data. That leaves 626,673 rows, and the summary statistics are printed.
 First analyses: median price by year, price by flat type, and the top 10 towns by price per sqm in 2023.
 Chart: median price over time for each flat type.
+
+<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/fa90b08e-4363-456d-b0fc-c29be9628774" />
+
+<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/9284604e-69e8-4d8b-9b98-
+db0f63622232" />
+
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/b1fea87f-a4be-444a-b702-e61c70a4137a" />
+
+<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/1b755c87-e06f-46b8-a575-e22c8ca5ac1a" />
+
+<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/af5f1485-fd3f-4e91-8c00-b39217e6f82b" />
+
+
+
+
+
