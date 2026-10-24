@@ -66,7 +66,19 @@ Power BI Dashboard
 
 <img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/af5f1485-fd3f-4e91-8c00-b39217e6f82b" />
 
+Objective	Predictive task	Method	Test
+1. Price drivers	Estimate each factor’s effect on price	Regression on log price, plus feature importance	In-sample fit and importance
+2. Lease depreciation	Estimate the price discount for shorter remaining lease	Regression with lease bands	Same as above
+3. Towns	Estimate each town’s price premium after adjusting for flat characteristics	Regression with town effects	Compared with raw price per sqm
+4. Trends and seasonality	Forecast monthly median price and volume	Time-series forecasting	Train to Dec 2022, test on 2023
+5. Prediction model	Predict the resale price of a flat	Linear regression and gradient boosting	Train 2000 to 2022, test on 2023
 
+Limitations
+Prices are nominal, so part of the trend is inflation.
+The models cannot see proximity to MRT stations, schools or amenities, because the coordinates in the dictionary are not in the files.
+Tree models cannot predict above the price levels they were trained on, so they underestimate in a rising market.
+Results 1 to 3 describe associations in the data, not causal effects.
+Time-series forecasts only hold while market conditions stay similar.
 
 
 
