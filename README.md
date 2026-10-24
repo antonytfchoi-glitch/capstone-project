@@ -3,6 +3,8 @@ Problem Statement
 
 HDB resale prices vary widely across towns, flat types and lease ages. Buyers, sellers and policymakers find it hard to judge fair value and affordability, and to see how location and lease decay affect prices. This analysis uses HDB resale transactions to identify what drives resale prices and how the market has changed over time. The aim is to support better valuation, affordability assessment and housing planning.
 
+<img width="364" height="83" alt="image" src="https://github.com/user-attachments/assets/2c0cd451-c4b6-44af-ba0b-6a33cf6fc68a" />
+
 Research Objectives
 
 1.Quantify how flat type, floor area, storey range and flat model affect resale price.
