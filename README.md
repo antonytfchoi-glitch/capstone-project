@@ -54,6 +54,8 @@ Quick checks: drop the duplicate rows, then exclude terrace houses and the parti
 First analyses: median price by year, price by flat type, and the top 10 towns by price per sqm in 2023.
 Chart: median price over time for each flat type.
 
+Power BI Dashboard
+
 <img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/fa90b08e-4363-456d-b0fc-c29be9628774" />
 
 <img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/29fa5fdd-da0b-4f61-994f-5043a6763855" />
