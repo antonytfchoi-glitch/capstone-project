@@ -56,8 +56,7 @@ Chart: median price over time for each flat type.
 
 <img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/fa90b08e-4363-456d-b0fc-c29be9628774" />
 
-<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/9284604e-69e8-4d8b-9b98-
-db0f63622232" />
+<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/29fa5fdd-da0b-4f61-994f-5043a6763855" />
 
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/b1fea87f-a4be-444a-b702-e61c70a4137a" />
 
