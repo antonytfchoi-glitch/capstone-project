@@ -37,6 +37,11 @@ Resale price is skewed, so the predictive model uses log price.
 Floor area, storey and year have the strongest relationships with price. The simple correlation with remaining lease is weak because lease overlaps with age, town and time.
 Floor area is correlated with flat type, so use one or the other with care in a linear model.
 
+Limitations
+Prices are nominal, not inflation-adjusted.
+Town figures for low-volume areas such as Bukit Timah and Central Area are less stable.
+The data ends in January 2024 and has no amenity or location detail.
+
 Duplicates
 There are 1,066 exact duplicate rows (0.17%), spread across the 2000 to 2012 file (513), 2017 onwards (349), 2012 to 2014 (248) and 2015 to 2016 (24).
 Another 68 groups are identical except for remaining_lease, which differs by one month. Those look like separate sales.
