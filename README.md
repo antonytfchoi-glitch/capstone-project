@@ -83,8 +83,6 @@ Power BI Dashboard
 
 <img width="749" height="396" alt="image" src="https://github.com/user-attachments/assets/3a5a71e7-89de-4bf3-9f93-f30ec718810a" />
 
-![Uploading image.png…]()
-
 <img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/29fa5fdd-da0b-4f61-994f-5043a6763855" />
 
 Objective	Predictive task	Method	Test
