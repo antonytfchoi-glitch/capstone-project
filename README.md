@@ -81,15 +81,11 @@ Chart: median price over time for each flat type.
 
 Power BI Dashboard
 
-<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/fa90b08e-4363-456d-b0fc-c29be9628774" />
+<img width="749" height="396" alt="image" src="https://github.com/user-attachments/assets/3a5a71e7-89de-4bf3-9f93-f30ec718810a" />
+
+![Uploading image.png…]()
 
 <img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/29fa5fdd-da0b-4f61-994f-5043a6763855" />
-
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/b1fea87f-a4be-444a-b702-e61c70a4137a" />
-
-<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/1b755c87-e06f-46b8-a575-e22c8ca5ac1a" />
-
-<img width="1350" height="750" alt="image" src="https://github.com/user-attachments/assets/af5f1485-fd3f-4e91-8c00-b39217e6f82b" />
 
 Objective	Predictive task	Method	Test
 1. Price drivers	Estimate each factor’s effect on price	Regression on log price, plus feature importance	In-sample fit and importance
