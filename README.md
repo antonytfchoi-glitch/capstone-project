@@ -17,6 +17,10 @@ Research Objectives
 
 <img width="397" height="143" alt="image" src="https://github.com/user-attachments/assets/a3145ac3-fe5d-4c31-95b6-e4c98f2d48f5" />
 
+Descriptive analytics summarises what has already happened in the data. Here it is for the real estate data, organised by the five objectives. These figures use the cleaned data (626,658 transactions, 2000 to 2023, all prices nominal).
+
+<img width="441" height="179" alt="image" src="https://github.com/user-attachments/assets/3d574a1d-34df-495c-b058-2f3698746552" />
+
 Duplicates
 There are 1,066 exact duplicate rows (0.17%), spread across the 2000 to 2012 file (513), 2017 onwards (349), 2012 to 2014 (248) and 2015 to 2016 (24).
 Another 68 groups are identical except for remaining_lease, which differs by one month. Those look like separate sales.
