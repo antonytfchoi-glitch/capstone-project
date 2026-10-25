@@ -21,6 +21,22 @@ Descriptive analytics summarises what has already happened in the data. Here it 
 
 <img width="441" height="179" alt="image" src="https://github.com/user-attachments/assets/3d574a1d-34df-495c-b058-2f3698746552" />
 
+<img width="449" height="311" alt="image" src="https://github.com/user-attachments/assets/f34a4045-5274-4482-a294-81140a236bb9" />
+
+Objective 2: Lease
+Remaining lease in 2023: 26% of sales had 90 to 100 years left. 44% had between 50 and 80 years, and 4% had under 50 years.
+Raw 2023 medians for 4 ROOM flats are about $490,000 to $508,000 for 50 to 80 years of lease, then $635,000 for 80 to 90 years and $600,000 for 90 to 100 years.
+The jump above 80 years reflects both newer flats and location, since newer estates are in different towns. This is why the predictive step adjusts for other factors.
+
+<img width="449" height="355" alt="image" src="https://github.com/user-attachments/assets/950cc050-90ad-41e0-bb41-fb0e6008d808" />
+
+<img width="447" height="291" alt="image" src="https://github.com/user-attachments/assets/55f1757d-5cbe-4c69-a9c0-2d66488c5703" />
+
+Objective 5: Inputs for the model
+Resale price is skewed, so the predictive model uses log price.
+Floor area, storey and year have the strongest relationships with price. The simple correlation with remaining lease is weak because lease overlaps with age, town and time.
+Floor area is correlated with flat type, so use one or the other with care in a linear model.
+
 Duplicates
 There are 1,066 exact duplicate rows (0.17%), spread across the 2000 to 2012 file (513), 2017 onwards (349), 2012 to 2014 (248) and 2015 to 2016 (24).
 Another 68 groups are identical except for remaining_lease, which differs by one month. Those look like separate sales.
