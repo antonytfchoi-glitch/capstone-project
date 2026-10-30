@@ -90,7 +90,7 @@ Objective	Predictive task	Method	Test
 4. Trends and seasonality	Forecast monthly median price and volume	Time-series forecasting	Train to Dec 2022, test on 2023
 5. Prediction model	Predict the resale price of a flat	Linear regression and gradient boosting	Train 2000 to 2022, test on 2023
 
-Limitations
+Limitations:
 Prices are nominal, so part of the trend is inflation.
 The models cannot see proximity to MRT stations, schools or amenities, because the coordinates in the dictionary are not in the files.
 Tree models cannot predict above the price levels they were trained on, so they underestimate in a rising market.
